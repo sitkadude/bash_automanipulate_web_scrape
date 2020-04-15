@@ -1,2 +1,5 @@
-# bash_automanipulate_web_scrape
-This bash script: (1) runs a python script that wrangles web data; (2) detects any file created by that python script, of which it automates another python script that manipulates that data and outputs a new csv file.
+This bash script:<br/>
+(1) runs `webscraper.py` which wrangles web data;<br/>
+(2) detects any file created by `webscraper.py`<br/>
+(3) if file is created by `webscraper.py`, bash automates `sort_scrape/py` which manipulates the created file and outputs a new csv file.
+
