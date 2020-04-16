@@ -6,7 +6,7 @@ This bash script:<br/>
 INSTRUCTIONS:<br/>
 (1) Download repo;<br/>
 (2) Run `$ chmod u+x shellscript.sh`;<br/>
-(3) Run `./shellscript.sh`.
+(3) Run `./shellscrape.sh`.
 
 
 
