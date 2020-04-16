@@ -3,6 +3,7 @@
 # Dependenices
 import csv
 
+print("Sorting csv file...")
 # Create object that maps rows to a dictionary.
 reader = csv.DictReader(open('scrape.csv', 'r'))
 # Sort rows in object by key name 'author' via lambda function.
@@ -14,3 +15,5 @@ writer = csv.DictWriter(open('sorted_scrape.csv', 'w'), reader.fieldnames)
 writer.writeheader()
 # Write newly sorted rows to output file.
 writer.writerows(result)
+
+print("Sort complete!")

@@ -1,7 +1,5 @@
 #!/bin/env bash
 
-echo "hello"
-
 python webscraper.py
 
 if [[ -e "scrape.csv" ]]; then
@@ -9,5 +7,5 @@ if [[ -e "scrape.csv" ]]; then
 fi
 
 if [[ -e "sorted_scrape.csv" ]]; then
-	echo "csv created for analysis"
+	echo "New csv outfile created for analysis."
 fi
