@@ -1,4 +1,4 @@
-# BASH SCRIPT TO CREATE & MANIPULATE WEB SCRAPE 
+# BASH SCRIPT TO AUTOMATE PYTHON FILES
 
 I created this repository as an exercise for python, bash scripting, pagination, and web scraping. Toscrape.com is a website designed solely for the purpose of web scraping. The data scraped consists of quotes from various famous authors.
 
