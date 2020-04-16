@@ -11,5 +11,5 @@ INSTRUCTIONS:<br/>
 (2.a) !!!Ensure that `python3` is the default version of python in your local environment (otherwise python modules will not work)<br/>
 (2.b) You may also need to change the default symlink to the latest version using the following command `ln -s -f /usr/local/bin/python3.7 /usr/local/bin/python`<br/>
 
-(3) Run `$ chmod u+x shellscript.sh`<br/>
+(3) Run `$ chmod u+x shellscrape.sh`<br/>
 (4) Run `bash ./shellscrape.sh`
