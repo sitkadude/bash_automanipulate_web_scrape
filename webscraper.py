@@ -51,3 +51,4 @@ with open("scrape.csv", "w", encoding="utf8") as csvfile:
             json_data = False
             print("Scrape complete!")
             print("New csv outfile created.")
+            
